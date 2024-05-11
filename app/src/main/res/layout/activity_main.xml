@@ -1,0 +1,33 @@
+<!-- activity_main.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Button to create a new advert -->
+    <Button
+        android:id="@+id/btnCreateAdvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a New Advert"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:padding="16dp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <!-- Button to show all lost and found items -->
+    <Button
+        android:id="@+id/btnShowAllItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show All Lost &amp; Found Items"
+        android:layout_below="@id/btnCreateAdvert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+    android:padding="16dp"
+        android:layout_marginHorizontal="20dp"
+
+        />
+
+</RelativeLayout>
